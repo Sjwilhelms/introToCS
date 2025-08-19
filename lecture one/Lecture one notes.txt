@@ -1,0 +1,101 @@
+Lecture one notes
+
+knowledge of concepts
+problem solving
+programming skill
+
+FINGER EXERCISE LECTURE 1
+
+Assume 3 variables are already defined for you: a, b, and c. Create a variable called total that adds a and b then multiplies the result by c. Include a last line in your code to print the value: print(total)
+
+TOPICS
+
+how to apply computation to help me solve a problem
+python programming language
+organising modular programs
+some simple but important algorithms
+algorithmic complexity
+
+how do we know the programs we write are efficient
+
+TYPES of knowledge
+
+Declarative: statement of fact
+Imperative: how to do something or RECIPE
+
+Writing recipes for a computer to do something
+
+NUMERICAL EXAMPLE
+
+Square root of x is y such that y*y = x
+
+start with a guess, g
+
+1.	if g*g is close enough to x, stop and say g is the answer
+2.	otherwise make a new guess by averaging g and x/g
+3.	using the new guess repeat the procvess until close enough
+
+1.	x = 16, g =3, g*g = 9, x/g = 16/3
+2.	(g+x/g)/2 = 4.17
+
+16/3 = 5.33
+5.3+3 = 8.33
+8.3/2 = 4.17
+
+4.17 is our new guess. is it close enough? not quite?
+
+This is an algorithm, a sequence of simple steps
+
+A flow control process that specifies when each step is executed
+
+A means of determining when to stop
+
+COMPUTERS ARE MACHINES THAT EXECUTE ALGORITHMS
+
+1.	performs simple operations, 100s of billions per second
+2.	remembers results, 100s of gigabytes of storage
+
+WHAT KIND OF CALCULATIONS
+
+1.	built into the machine, eg., +
+2.	ones that you define as a programmer
+
+MEMORY
+ARITHMETIC/LOGIC UNIT
+CONTROL UNIT
+INPUT/OUTPUT
+
+BASIC PRIMITIVES
+
+turing showed you can compute anything with only 6 primitives:
+
+left, right, print, scan, erase, no op
+
+real languages have more convenient primitives
+
+in English the primitives are words
+
+in programming language they are numbers, strings, simple operators
+
+WHERE THINGS GO WRONG
+
+syntactic errors
+⦁	common and easily caught
+static semantic errors
+⦁	some languages check for these before running program
+⦁	can cause unpredictable behaviour
+no linguistic errors but different meaning from the intent
+⦁	program crashes or stops running
+⦁	program runs forever
+⦁	program gives an answer but it's wrong
+
+
+PYTHON PROGRAMS
+
+a program is a sequence of definitions and commands
+⦁	definitions evaluated
+⦁	commads executed by a python interpreter in a shell
+
+commands instruct interpreter to do something
+
+can be typed directly in a shell or stored in a file and read into the shell and evaluated
